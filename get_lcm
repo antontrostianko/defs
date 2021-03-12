@@ -1,0 +1,10 @@
+def get_gcd(a, b):
+    while a != b:
+        if a > b:
+            a -= b
+        else:
+            b -= a
+    return a
+
+def get_lcm(c, d):
+    return (c*d)/get_gcd(c, d)
