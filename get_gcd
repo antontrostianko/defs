@@ -1,7 +1,7 @@
 def get_gcd(a, b): #НОД
     while a != b:
         if a > b:
-            a -= bhttps://github.com/antontrostianko/defs/blob/main/get_lcm
+            a -= b
         else:
             b -= a
     return a
