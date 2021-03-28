@@ -1,5 +1,5 @@
 from math import ceil
-#принимает в качестве аргумента целое число и выводит True если оно простое
+
 def is_prime(num):
     if num == 1:
         return False
